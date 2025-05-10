@@ -41,7 +41,7 @@ if st.session_state.uploaded_file:
     if st.button("Generate Answer 💡"):
         if st.session_state.user_query:
             # Initialize LangChain with Gemini LLM
-            llm = ChatGoogleGenerativeAI(model="gemini-pro") 
+            llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash") 
             chain = SmartDataframe(df, config={"llm": llm})
 
             # Generate the answer using PandasAI
