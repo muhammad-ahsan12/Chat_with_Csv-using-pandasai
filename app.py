@@ -5,7 +5,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 
 # Set the Gemini API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA0S7F21ExbBnR06YXkEi7aj94nWP5kJho"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyBRe8NDmbb-T0MsTOucJs0cOLmxJ6kxPCs"
 
 # Set up the Streamlit interface
 st.title("Pandas AI Query Engine with Gemini 🧠")
